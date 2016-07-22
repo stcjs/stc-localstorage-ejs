@@ -1,5 +1,5 @@
 {
-  "name": "stc-localstorage-smarty",
+  "name": "stc-localstorage-ejs",
   "description": "",
   "version": "1.0.1",
   "author": {
@@ -40,13 +40,13 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stcjs/stc-localstorage-smarty"
+    "url": "https://github.com/stcjs/stc-localstorage-ejs"
   },
   "engines": {
     "node": ">=4.0.0"
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/stcjs/stc-localstorage-smarty/issues"
+    "url": "https://github.com/stcjs/stc-localstorage-ejs/issues"
   }
 }
