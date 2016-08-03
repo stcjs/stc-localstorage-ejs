@@ -1,7 +1,7 @@
 {
   "name": "stc-localstorage-ejs",
-  "description": "",
-  "version": "1.0.1",
+  "description": "LocalStorage ejs adapter for stc",
+  "version": "1.0.3",
   "author": {
     "name": "quguangyu",
     "email": "quguangyu@gmail.com"
