@@ -67,8 +67,8 @@ export default class stcAdapter {
     data['if'] = `${blockStart} if(stc_ls_config["${lsValue}"] && stc_ls_cookies[stc_ls_config["${lsValue}"].key] && stc_ls_config["${lsValue}"].version === stc_ls_cookies[stc_ls_config["${lsValue}"].key]) { ${blockEnd}`;
     data['else'] = `${blockStart} } else { ${blockEnd}`;
     data['end'] = `${blockStart} } ${blockEnd}`;
-    data['key'] = `${blockStart} -stc_ls_config["${lsValue}"]["key"] ${blockEnd}`;
-    data['version'] = `${blockStart} -stc_ls_config["${lsValue}"]["version"] ${blockEnd}`;
+    data['key'] = `${blockStart}-stc_ls_config["${lsValue}"]["key"] ${blockEnd}`;
+    data['version'] = `${blockStart}-stc_ls_config["${lsValue}"]["version"] ${blockEnd}`;
 
     return data;
   }
